@@ -1,0 +1,11 @@
+  485  mkdir Actividades
+  486  cd Actividades/
+  487  mkdir "deportes de equipo" && touch "deportes de equipo"/bastet && mkdir "deportes acuaticos" "deportes extremos" "deportes de mesa" && touch "deportes de mesa"/"ping pong" && mkdir "deportes mentales" && touch "deportes mentales"/ajedrez.txt
+  488  ls -R
+  489  rm -r "deportes extremos"/
+  490  pwd
+  491  git init
+  492  git remote add origin https://github.com/JorgeLombana/checkpoint-intro-informatica.git
+  493  git add .
+  494  git commit -m "realice todos los 8 puntos del form"
+  495  git push origin main
